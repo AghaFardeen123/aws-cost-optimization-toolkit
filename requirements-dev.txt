@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=8.0
+moto[ec2,s3,cloudwatch]>=5.0
+black>=24.0
+flake8>=7.0
